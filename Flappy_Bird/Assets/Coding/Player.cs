@@ -15,6 +15,11 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(transform.position.y > 5.5f)
+        {
+            return;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Jump");
