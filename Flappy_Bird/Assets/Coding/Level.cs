@@ -18,7 +18,7 @@ public class Level : MonoBehaviour
 
         if(transform.position.x < deadZone)
         {
-            transform.position = initPosition;
+            transform.position = initPosition + new Vector3(5f, 0f);
         }
     }
 }
