@@ -3,7 +3,7 @@ using UnityEngine;
 public class Floor : MonoBehaviour
 {
     public float Speed = -5f;
-    public float deadZone = -13f;
+    public float deadZone = -9f;
     Vector3 initPosition;
 
     private void Start()

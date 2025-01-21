@@ -108,18 +108,18 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 33
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec612d49bd850da50800000000000000
-      internalID: 6543827958687209166
+      spriteID: 952d92f129aeb4d07987fe2ef00e598b
+      internalID: 1483418499
       vertices: []
       indices: 
       edges: []
@@ -128,20 +128,64 @@ TextureImporter:
       name: Bird1-4_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 1
-        width: 33
-        height: 15
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c1b7d350e733ce40800000000000000
-      internalID: 5675441392035803584
+      spriteID: 1aa6eda05f01f43cea1e12ea30ec246c
+      internalID: -1259812899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird1-4_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b050fe524fcf42a2b1c92a45ba4d0ce
+      internalID: 1130014933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bird1-4_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0a8cf2679a64cadb5330b9b457ff63
+      internalID: 2105644245
       vertices: []
       indices: 
       edges: []
@@ -150,7 +194,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 300ccfcd04c3f430daf14beae3591fdd
     internalID: 0
     vertices: []
     indices: 
@@ -159,7 +203,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bird1-4_0: 1483418499
+      Bird1-4_1: -1259812899
+      Bird1-4_2: 1130014933
+      Bird1-4_3: 2105644245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

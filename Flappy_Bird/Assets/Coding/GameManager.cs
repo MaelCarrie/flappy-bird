@@ -10,6 +10,12 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public Button restartButton;
 
+    // Audio
+    public AudioSource soundScore;
+    public AudioSource soundMusic;
+    public AudioSource soundDead;
+    public AudioSource soundSpawn;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +27,7 @@ public class GameManager : MonoBehaviour
     void restartGame()
     {
         SceneManager.LoadScene("SampleScene");
+        soundSpawn.Play();
     }
 
     // Update is called once per frame
@@ -34,11 +41,13 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene("SampleScene");
+            soundSpawn.Play();
         }
     }
 
     public void killPlayer()
     {
+        soundDead.Play();
         OnPlayerDie();
     }
 
@@ -47,10 +56,12 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         scoreText.text = "You died. Press R to restart. Your best score is : " + Score;
         restartButton.gameObject.SetActive(true);
+        soundMusic.Stop();
     }
 
     public void addScore()
     {
+        soundScore.Play();
         Score++;
         scoreText.text = Score.ToString();
     }
